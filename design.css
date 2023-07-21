@@ -1,0 +1,88 @@
+html, body, div, #lista-videoclipuri{
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	padding: 10px;
+}
+
+body {
+	width: 100%;
+	height:100%;
+	margin: 0 auto;
+	background-image: url("media/fundal.jpg");
+	background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+	
+.content-holder{
+	display: grid;
+	grid-template-columns: 60% 40%;
+	width: 100%;
+	height: 80%;
+}
+.lista{
+	display: grid;
+	justify-content: center;
+}
+canvas {
+	position: absolute;
+	float: left;
+	border-radius: 5px;
+	margin-top: 24px;
+	margin-left: 20px;
+	width: 600px;
+	height: 400px;
+	
+}
+
+.btn-group{
+	width: 20%;
+	height: 30%;
+	
+}
+div#controls{background-color: #333;padding: 10px;}
+
+ul {
+	float: right;
+	margin-right: 20px;
+	width: 430px;
+	height: 500px;
+	list-style-type: none;
+	overflow-y: scroll;
+}
+button{
+	float: center;
+	
+}
+
+ul li {
+	text-decoration: none;
+	color:black;
+	margin-bottom: 5px;
+}
+
+
+ul li img {
+	width: 220px;
+	border-radius:20px;
+}
+
+#autoplay {
+	float: inline-start;
+	cursor: pointer;
+	font-weight: bold;
+    text-decoration-color: green;
+}
+
+#cadruVideo {
+	float: left;
+}
+
+#cadruVideo button {
+	cursor: pointer;
+	font-weight: bold;
+}
+
